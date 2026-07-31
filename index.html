@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
+    <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5-->
 
     <header>
         <h1>Vanguard</h1>
@@ -44,6 +44,8 @@
             strategic expertise delivers results.</p>
 
         <h2>What We Offer</h2>
+
+        <section id="offer">
         <h3>Strategic Growth Consulting</h3>
         <p>Unlock new revenue streams and optimize market expansion strategies.</p>
 
@@ -62,13 +64,16 @@
         <h3>Corporate Innovation</h3>
         <p>Strategic implementation of new ideas, technologies, and processes to drive business growth, enhance
             competitive advantage, and adapt to evolving market demands.</p>
+        </section>
 
         <h2>Proven Results</h2>
+
+        <section id="results">
         <p>Our data-driven strategies have delivered outstanding ROI, leading to significant revenue growth.</p>
 
         <h3>Profits</h3>
 
-        <table>
+        <table id="results-table" class="results-table">
             <tr>
                 <th>Year</th>
                 <th>Revenue ($M)</th>
@@ -117,10 +122,15 @@
             <div class="bar" data-year="2024" style="--height: 100%;"></div>
         </div>
 
+        </section>
+
         <h2>Contact Us</h2>
+
+        <section id="contact">
+
         <p>Want to take your business to the next level? Get in touch with our elite team today.</p>
 
-        <form id="contact">
+        <form>
 
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name">
@@ -141,6 +151,7 @@
             <input type="submit" value="Submit">
 
         </form>
+        </section>
 
     </main>
 
