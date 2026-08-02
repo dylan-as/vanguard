@@ -93,7 +93,7 @@ h1 {
 /* HAMBURGER navigation styling */
 
 nav {
-    background-color: var(--black);
+    background-color: transparent;
     position: absolute;
     right: -5vw;
     top: 3vh;
@@ -105,7 +105,7 @@ nav ul {
     padding: 0vw;
     list-style: none;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     max-height: 0vh;
 }
 
@@ -140,7 +140,7 @@ nav label {
 /* burger lines */
 
 label span {
-    background-color: white;
+    background-color: var(--white);
     display: block;
     height: .25rem;
     position: relative;
@@ -171,7 +171,10 @@ input {
 
 input:checked ~ ul {
     max-height: 400px;
+    background-color: var(--black);
 }
+
+/* nav burger animations */
 
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
