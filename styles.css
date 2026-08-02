@@ -313,12 +313,13 @@ tr:nth-child(even) {
 #contact {
     color: var(--white);
     background-color: var(--black);
-    padding: 3vh 0vw
+    padding: 3vh 0vw;
 }
 
 form {
     width: 90vw;
     font-size: .8rem;
+    margin: 1vh auto;
 }
 
 input, textarea, select, label {
@@ -326,9 +327,35 @@ input, textarea, select, label {
     padding: 1vh 1vw;
 }
 
-input {
-    width: 60%;
+input, textarea {
+    width: 70%;
     border: 3px var(--blue) inset;
+}
+
+#submit {
+    margin-top: 2vh;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1.5vh 3vw;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 70%
+}
+
+footer {
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+}
+
+footer a {
+    color: var(--blue);
+    text-decoration: underline;
 }
 
 
