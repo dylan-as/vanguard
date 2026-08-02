@@ -101,6 +101,16 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 img {
     content: "";
     left:-.5rem;
@@ -110,6 +120,12 @@ img {
 }
 
 /* HAMBURGER navigation styling */
+
+/* #nav-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+} */
 
 nav {
     background-color: transparent;
@@ -151,7 +167,8 @@ nav a:hover, nav input:hover {
 
 nav label {
     cursor: pointer;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 1.5rem;
     user-select: none;
 }
