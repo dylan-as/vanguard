@@ -71,6 +71,11 @@ body {
     line-height: 1.5;
 }
 
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -94,6 +99,14 @@ header * {
 h1 {
     font-weight:bolder;
     font-size: 2.5rem;
+}
+
+img {
+    content: "";
+    left:-.5rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    background: url('images/vanguard-logo.svg') no-repeat center/contain;
 }
 
 /* HAMBURGER navigation styling */
@@ -202,12 +215,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 /* innovation styling */
 
-#innovation h2 {
-    font-weight: bold;
-    font-size: 2rem;
-}
+/* (Photo by Kevin Matos on Unsplash)  */
 
-/* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash) */
 #innovation {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
     height: 70vh;
@@ -219,15 +228,28 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     color: var(--white);
 }
 
-/* ADD FLOATING SVG LOGO BEFORE THE H1 */
-img {
-    content: "";
-    left:-.5rem;
-    width: 3.75rem;
-    height: 3.75rem;
-    background: url('images/vanguard-logo.svg') no-repeat center/contain;
-
+#innovation h2 {
+    font-weight: bold;
+    font-size: 2rem;
 }
+
+#innovation a {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background-color: var(--blue);
+    padding: 1.5vh 3vw;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#innovation a:hover {
+    background-color: var(--red);
+    cursor: pointer; 
+    transform: scale(1.05);
+    transition: all .2s ease-in;
+}
+
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
