@@ -144,6 +144,7 @@ label span {
     display: block;
     height: .25rem;
     position: relative;
+    transition: background-color .3s ease-in;
     width: 2rem;
 }
 
@@ -153,7 +154,8 @@ label span:before, label span:after {
     display: block;
     height: 100%;
     position: absolute;
-    width: 100%
+    transition: all .2s ease-out;
+    width: 100%;
 }
 
 label span:before {
@@ -172,11 +174,25 @@ input {
 input:checked ~ .dropdown-content {
     max-height: 400px;
     background-color: var(--black);
-
 }
 
-
 /* nav burger animations */
+
+input:checked ~ label span {
+    background: transparent;
+}
+
+input:checked ~ label span:before {
+    transform: rotate(-45deg);
+}
+
+input:checked ~ label span:after {
+    transform: rotate(45deg);
+}
+
+input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+    top: 0;
+}
 
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
