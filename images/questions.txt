@@ -1,0 +1,2 @@
+1. What is the best way to move around the toggled drop-down links for the burger menu? The lecture example showed a left-aligned one, and I am struggling with the best responsive positioning for a right-aligned burger menu. 
+2. Is it more efficient to put all the header items (h1, logo, burger menu) into one section and align them with flexbox? Or is absolute positioning best for something static like the menu dropdown? 
