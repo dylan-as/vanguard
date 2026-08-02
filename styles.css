@@ -104,6 +104,7 @@ h1 {
 h2 {
     font-size: 2rem;
     font-weight: bolder;
+    text-align: left;
 }
 
 h3 {
@@ -229,8 +230,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 /* innovation styling */
 
-/* (Photo by Kevin Matos on Unsplash)  */
-
 #innovation {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
     height: 70vh;
@@ -241,6 +240,8 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     overflow: hidden;
     color: var(--white);
 }
+
+/* (Photo by Kevin Matos on Unsplash)  */
 
 #innovation h2 {
     font-weight: bold;
@@ -262,6 +263,64 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     transform: scale(1.05);
     transition: all .2s ease-in;
 }
+
+/* about styling */
+
+#about {
+    padding: 3vh 0vw;
+
+}
+
+
+
+#services section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 2vh 5vw;
+    border-radius: 8px;
+    margin: 1.5vh 0vw;
+}
+
+#results {
+    margin: 3vh auto;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 2vh 0vw;
+}
+
+table {
+    margin: auto;
+
+}
+
+th, td {
+    padding: 2vh 2vw;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--black);
+}
+
+tr {
+    text-align: center;
+    background-color: var(--charcoal);
+}
+
+tr:nth-child(even) {
+    background-color: var(--black);
+}
+
+#contact {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+
+
 
 
 /* THIS ONE IS DONE FOR YOU */
