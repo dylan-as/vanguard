@@ -200,7 +200,7 @@ nav label span:after {
     top: -.75rem;
 }
 
-/* NB gets rid of checkbox */
+/* NB gets rid of checkbox for NAV ONLY*/
 nav input {
     display: none;
 }
@@ -345,6 +345,14 @@ input, textarea {
     border: none;
     width: 70%
 }
+
+#submit:hover {
+    background-color: var(--red);
+    cursor: pointer; 
+    transform: scale(1.05);
+    transition: all .2s ease-in;
+}
+
 
 footer {
     background-color: var(--black);
