@@ -289,7 +289,6 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
 
 table {
     margin: auto;
-
 }
 
 th, td {
@@ -314,6 +313,22 @@ tr:nth-child(even) {
 #contact {
     color: var(--white);
     background-color: var(--black);
+    padding: 3vh 0vw
+}
+
+form {
+    width: 90vw;
+    font-size: .8rem;
+}
+
+input, textarea, select, label {
+    display: block;
+    padding: 1vh 1vw;
+}
+
+input {
+    width: 60%;
+    border: 3px var(--blue) inset;
 }
 
 
