@@ -94,6 +94,9 @@ h1 {
 
 nav {
     background-color: var(--black);
+    position: absolute;
+    right: -5vw;
+    top: 3vh;
 }
 
 nav ul {
@@ -151,6 +154,23 @@ label span:before, label span:after {
     height: 100%;
     position: absolute;
     width: 100%
+}
+
+label span:before {
+    top: .75rem;
+}
+
+label span:after {
+    top: -.75rem;
+}
+
+/* NB gets rid of checkbox */
+input {
+    display: none;
+}
+
+input:checked ~ ul {
+    max-height: 400px;
 }
 
 
