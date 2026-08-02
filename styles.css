@@ -169,10 +169,12 @@ input {
     display: none;
 }
 
-input:checked ~ ul {
+input:checked ~ .dropdown-content {
     max-height: 400px;
     background-color: var(--black);
+
 }
+
 
 /* nav burger animations */
 
