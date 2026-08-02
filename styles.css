@@ -173,7 +173,7 @@ nav label {
 
 /* burger lines */
 
-label span {
+nav label span {
     background-color: var(--white);
     display: block;
     height: .25rem;
@@ -182,7 +182,7 @@ label span {
     width: 2rem;
 }
 
-label span:before, label span:after {
+nav label span:before, label span:after {
     background: var(--white);
     content: "";
     display: block;
@@ -192,39 +192,39 @@ label span:before, label span:after {
     width: 100%;
 }
 
-label span:before {
+nav label span:before {
     top: .75rem;
 }
 
-label span:after {
+nav label span:after {
     top: -.75rem;
 }
 
 /* NB gets rid of checkbox */
-input {
+nav input {
     display: none;
 }
 
-input:checked ~ .dropdown-content {
+nav input:checked ~ .dropdown-content {
     max-height: 400px;
     background-color: var(--black);
 }
 
 /* nav burger animations */
 
-input:checked ~ label span {
+nav input:checked ~ label span {
     background: transparent;
 }
 
-input:checked ~ label span:before {
+nav input:checked ~ label span:before {
     transform: rotate(-45deg);
 }
 
-input:checked ~ label span:after {
+nav input:checked ~ label span:after {
     transform: rotate(45deg);
 }
 
-input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
     top: 0;
 }
 
@@ -268,10 +268,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 #about {
     padding: 3vh 0vw;
-
 }
-
-
 
 #services section {
     display: flex;
