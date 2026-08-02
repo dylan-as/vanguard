@@ -121,12 +121,6 @@ img {
 
 /* HAMBURGER navigation styling */
 
-/* #nav-container {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-} */
-
 nav {
     background-color: transparent;
     position: absolute;
@@ -152,17 +146,20 @@ nav h2 {
 nav li a {
     display: block;
     font-family: var(--font);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
-    text-transform: uppercase;
+    text-transform:uppercase;
     font-weight: bold; 
     text-decoration: none;
-    color: var(--white);
+    font-variant: small-caps;
+    color: var(--blue);
     transition: background-color .3s ease-in;
 }
 
 nav a:hover, nav input:hover {
-    color: var(--blue);
+    color: var(--black);
+    background-color: var(--blue);
+    transition: all .2s ease-in-out;
 }
 
 nav label {
