@@ -1,12 +1,12 @@
 1. What is the best way to move around the toggled drop-down links for the burger menu? The lecture example showed a left-aligned one, and I am struggling with the best responsive positioning for a right-aligned burger menu. 
-2. Is it more efficient to put all the header items (h1, logo, burger menu) into one section and align them with flexbox? Or is absolute positioning best for something static like the menu dropdown? 
+2. Is it more efficient to put all the header items (h1, logo, burger menu) into one section and align them with flexbox? Or is absolute positioning best for something static like the menu dropdown?
+3. How do this many animations on a page work with accessibility? 
+4. When do we use transitions vs animations? For something like the headers (becuase they only change once on view) is a transition better than an animation? Is there a way to trigger something on view? 
 
 
 
 notessss 
 i will need: 
 floating header classes for all h2/h3 in the document 
-scale animations (scale and translate y) for cards in offers section
-translate y for floating logo svg on loop 
 find a way to center the contact form 
-turn off text wrap on table headers 
+turn off text wrap on table headers at small sizes
