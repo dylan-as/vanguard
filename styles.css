@@ -118,6 +118,16 @@ img {
     width: 3.75rem;
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
+    animation: float .3s ease-in-out infinite;
+    animation-duration: 3s;
+}
+
+/* floating logo animation  */
+
+@keyframes float {
+    0% {transform: translateY(0)}
+    50% {transform: translateY(-1vw)}
+    100% {transform: translateY(0)}
 }
 
 /* HAMBURGER navigation styling */
@@ -278,6 +288,12 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
     padding: 2vh 5vw;
     border-radius: 8px;
     margin: 1.5vh 0vw;
+}
+
+#services section:hover {
+    transform: translateY(-1vh);
+    transition: .3s ease-in-out;
+    transition-delay: .2s;
 }
 
 #results {
