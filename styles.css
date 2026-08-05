@@ -314,7 +314,7 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
     color: var(--white);
     padding: 2vh 5vw;
     border-radius: 8px;
-    margin: 1.5vh 0vw;
+    margin: 1vh 0vw;
 }
 
 #services section:hover {
@@ -363,13 +363,12 @@ tr:nth-child(even) {
     color: var(--white);
     background-color: var(--black);
     padding: 3vh 0vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 form {
     font-size: .8rem;
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -513,7 +512,9 @@ footer a {
     .services-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2vw;
+        row-gap: 1vh;
+        column-gap: 1vw;
+        margin: 0vh 0vw;
     }
 
     .results-container {
@@ -538,4 +539,34 @@ footer a {
     body {
         max-width: 1024px;
     }
+
+    /* gets rid of burger */
+    nav label span {
+        display: none;
+    }
+   
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 1vh;
+        column-gap: 1vw;
+        margin: 0vh 0vw;
+    }
+
+    .results-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .results-table {
+        width: 50%;
+    }
+    .bar-chart {
+        width: 50%;
+    }
+
+
+
+
+
 }
