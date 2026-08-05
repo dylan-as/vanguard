@@ -361,12 +361,13 @@ tr:nth-child(even) {
     color: var(--white);
     background-color: var(--black);
     padding: 3vh 0vw;
+    margin: auto;
 }
 
 form {
-    width: 90vw;
+    width: 80%;
     font-size: .8rem;
-    margin: 1vh auto;
+    margin: 0 auto;
 }
 
 input, textarea, select, label {
@@ -500,10 +501,6 @@ footer a {
 /* MEDIA QUERIES (MEDIUM) */ 
 
 @media only screen and (min-width: 800px) {
-
-    body {
-        max-width: 800px;
-    }
 
     /* gets rid of burger */
     nav label span {
