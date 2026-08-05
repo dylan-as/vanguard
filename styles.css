@@ -397,7 +397,7 @@ input:focus, textarea:focus {
     border-radius: 5px;
     display: inline-block;
     border: none;
-    width: 80%
+    width: 90%
 }
 
 #submit:hover {
@@ -504,9 +504,28 @@ footer a {
 
 @media only screen and (min-width: 800px) {
 
+    nav ul {
+        overflow: visible;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        top: 0;
+        left: -30vw;
+
+    }
+
+    nav li a {
+        display: inline-block;
+    }
+
     /* gets rid of burger */
-    nav label span {
+    nav label span, nav input {
         display: none;
+    }
+
+    .dropdown-content {
+        display: flex;
+        flex-direction: row;
     }
    
     .services-container {
@@ -539,11 +558,6 @@ footer a {
     body {
         max-width: 1024px;
     }
-
-    /* gets rid of burger */
-    nav label span {
-        display: none;
-    }
    
     .services-container {
         display: grid;
@@ -573,7 +587,7 @@ footer a {
    #submit {
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
    }
 
 
