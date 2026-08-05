@@ -378,7 +378,7 @@ input, textarea, select, label {
 }
 
 input, textarea {
-    width: 70%;
+    width: 80%;
     border: 3px var(--blue) inset;
 }
 
@@ -397,7 +397,7 @@ input:focus, textarea:focus {
     border-radius: 5px;
     display: inline-block;
     border: none;
-    width: 70%
+    width: 80%
 }
 
 #submit:hover {
@@ -565,7 +565,16 @@ footer a {
         width: 50%;
     }
 
+   form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
 
+   #submit {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+   }
 
 
 
