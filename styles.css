@@ -361,13 +361,10 @@ tr:nth-child(even) {
     color: var(--white);
     background-color: var(--black);
     padding: 3vh 0vw;
-    margin: auto;
 }
 
 form {
-    width: 80%;
     font-size: .8rem;
-    margin: 0 auto;
 }
 
 input, textarea, select, label {
