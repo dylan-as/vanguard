@@ -509,6 +509,10 @@ footer a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .services-container section {
+        margin: 1vh 5vw;
+    }
     .results-container {
         display: flex;
         flex-direction: row;
