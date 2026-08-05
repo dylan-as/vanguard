@@ -328,6 +328,7 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
     background-color: var(--blue);
     color: var(--white);
     padding: 2vh 0vw;
+
 }
 
 #results h3 {
@@ -357,22 +358,20 @@ tr:nth-child(even) {
     background-color: var(--black);
 }
 
-.contact-container {
-    margin: auto;
-}
 
 #contact {
     color: var(--white);
     background-color: var(--black);
     padding: 3vh 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 form {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
     font-size: .8rem;
 }
+
 
 input, textarea, select, label {
     display: block;
