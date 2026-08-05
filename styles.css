@@ -241,7 +241,7 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
 /* innovation styling */
 
 #innovation {
-    background: linear-gradient(to bottom, var(--blue) 1%, transparent 99%), linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
     height: 70vh;
     display: grid;
     place-items: center;
