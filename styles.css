@@ -504,6 +504,15 @@ footer a {
     body {
         max-width: 800px;
     }
+
+    nav label span {
+        display: none;
+    }
+
+    nav li a {
+        display: flex;
+        flex-direction: row;
+    }
     
     .services-container {
         display: grid;
