@@ -505,14 +505,20 @@ footer a {
         max-width: 800px;
     }
 
+    /* gets rid of burger */
     nav label span {
         display: none;
     }
 
-    nav li a {
+    nav ul {
         display: flex;
         flex-direction: row;
     }
+
+    nav li a {
+        visibility: visible;
+    }
+
     
     .services-container {
         display: grid;
