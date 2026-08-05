@@ -505,6 +505,10 @@ footer a {
         max-width: 800px;
     }
 
+    nav {
+        position: relative;
+    }
+
     /* gets rid of burger */
     nav label span {
         display: none;
