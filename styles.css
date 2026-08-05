@@ -265,7 +265,34 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
     padding: 1.5vh 3vw;
     border-radius: 5px;
     display: inline-block;
+    animation: text ease-in;
+    animation-duration: 1s;
 }
+
+
+@keyframes text {
+    0% {
+        opacity: 0;
+        transform: translateY(-1vh);
+    }
+    25% {
+        opacity: .25;
+        transform: translateY(-.5vh);
+    }
+    50% {
+        opacity: .5;
+        transform: translateY(-.25vh);
+    }
+    75% {
+        opacity: .75;
+        transform: translateY(0vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(.1vh);
+    }
+}
+
 
 #innovation a:hover {
     background-color: var(--red);
