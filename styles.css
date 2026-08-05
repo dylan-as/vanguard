@@ -500,11 +500,7 @@ footer a {
     body {
         max-width: 800px;
     }
-
-
     
-}
-
     #results {
         grid-template-columns: 1fr 1fr;
     }
@@ -518,6 +514,11 @@ footer a {
     .bar-chart {
         width: 50%;
     }
+
+
+
+
+}
 
 
 /* MEDIA QUERIES (LARGE) */
