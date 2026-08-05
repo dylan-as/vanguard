@@ -505,7 +505,8 @@ footer a {
         max-width: 800px;
     }
     
-    #results {
+    .services-container {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .results-container {
