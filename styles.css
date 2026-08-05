@@ -330,6 +330,10 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
     padding: 2vh 0vw;
 }
 
+#results h3 {
+    padding: 2vh 1vw;
+}
+
 table {
     margin: auto;
 }
