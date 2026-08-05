@@ -508,11 +508,9 @@ footer a {
     .services-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 2vw;
     }
 
-    .services-container section {
-        margin: 1vh 5vw;
-    }
     .results-container {
         display: flex;
         flex-direction: row;
