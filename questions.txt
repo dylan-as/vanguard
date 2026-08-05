@@ -7,6 +7,7 @@
 
 notessss 
 i will need: 
-floating header classes for all h2/h3 in the document 
-find a way to center the contact form 
+find a way to center the contact form OR left align text in centered contact form
 turn off text wrap on table headers at small sizes
+remove padding and margins on elements for banded appearance
+replace padding and margin in #services with more concise grid gap arguments
