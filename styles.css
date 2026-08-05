@@ -357,6 +357,10 @@ tr:nth-child(even) {
     background-color: var(--black);
 }
 
+.contact-container {
+    margin: auto;
+}
+
 #contact {
     color: var(--white);
     background-color: var(--black);
@@ -364,6 +368,9 @@ tr:nth-child(even) {
 }
 
 form {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
     font-size: .8rem;
 }
 
