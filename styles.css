@@ -505,25 +505,11 @@ footer a {
         max-width: 800px;
     }
 
-    nav {
-        position: relative;
-        z-index: 1;
-        top: 0;
-        right: 0;
-    }
-
     /* gets rid of burger */
     nav label span {
         display: none;
     }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    
+   
     .services-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
