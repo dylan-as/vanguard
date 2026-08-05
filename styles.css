@@ -558,6 +558,25 @@ footer a {
     body {
         max-width: 1024px;
     }
+
+    nav ul {
+        overflow: visible;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        position: absolute;
+        top: 0;
+        left: -30vw;
+
+    }
+
+    nav li a {
+        display: inline-block;
+    }
+
+    /* gets rid of burger */
+    nav label span, nav input {
+        display: none;
+    }
    
     .services-container {
         display: grid;
