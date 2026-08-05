@@ -472,7 +472,7 @@ footer a {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: var(--height);
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
@@ -486,6 +486,7 @@ footer a {
     font-weight: bold;
     color: var(--white);
 }
+
 @keyframes stepUp {
     0% {
         height: 0;
