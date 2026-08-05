@@ -502,6 +502,7 @@ footer a {
     }
     
     #results {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .results-container {
@@ -514,9 +515,6 @@ footer a {
     .bar-chart {
         width: 50%;
     }
-
-
-
 
 }
 
