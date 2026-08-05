@@ -507,6 +507,8 @@ footer a {
 
     nav {
         position: relative;
+        right: 0;
+        top: 0;
     }
 
     /* gets rid of burger */
