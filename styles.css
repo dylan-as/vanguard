@@ -507,8 +507,9 @@ footer a {
 
     nav {
         position: relative;
-        right: 0;
+        z-index: 1;
         top: 0;
+        right: 0;
     }
 
     /* gets rid of burger */
@@ -521,9 +522,6 @@ footer a {
         flex-direction: row;
     }
 
-    nav li a {
-        visibility: visible;
-    }
 
     
     .services-container {
