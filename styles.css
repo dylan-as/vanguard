@@ -541,6 +541,10 @@ footer a {
         margin: 0 0;
     }
 
+        #results {
+        margin-top: 2vh;
+    }
+
     .results-container {
         display: flex;
         flex-direction: row;
@@ -593,6 +597,10 @@ footer a {
 
         #services section {
         margin: 0 0;
+    }
+
+    #results {
+        margin-top: 2vh;
     }
 
     .results-container {
