@@ -532,7 +532,7 @@ footer a {
     .services-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 1vh;
+        row-gap: 2vh;
         column-gap: 1vw;
         margin: 0vh 0vw;
     }
@@ -590,7 +590,7 @@ footer a {
     .services-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 1vh;
+        row-gap: 2vh;
         column-gap: 1vw;
         margin: 0vh 0vw;
     }
