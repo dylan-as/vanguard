@@ -326,7 +326,6 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
 }
 
 #results {
-    margin: 3vh auto;
     background-color: var(--blue);
     color: var(--white);
     padding: 2vh 0vw;
