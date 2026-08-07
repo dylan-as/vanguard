@@ -514,7 +514,6 @@ footer a {
         position: absolute;
         top: 0;
         left: -30vw;
-
     }
 
     nav li a {
@@ -537,6 +536,10 @@ footer a {
         row-gap: 1vh;
         column-gap: 1vw;
         margin: 0vh 0vw;
+    }
+
+    #services section {
+        margin: 0 0;
     }
 
     .results-container {
@@ -587,6 +590,10 @@ footer a {
         row-gap: 1vh;
         column-gap: 1vw;
         margin: 0vh 0vw;
+    }
+
+        #services section {
+        margin: 0 0;
     }
 
     .results-container {
