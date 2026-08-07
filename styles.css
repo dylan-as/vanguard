@@ -88,6 +88,7 @@ header {
     background-color: var(--black);
     color: var(--blue);
     padding: 1vh 0vh;
+    width: 100%;
 }
 
 header * {
