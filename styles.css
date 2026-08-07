@@ -316,7 +316,7 @@ nav input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.st
     color: var(--white);
     padding: 2vh 5vw;
     border-radius: 8px;
-    margin: 1vh 0vw;
+    margin: 2vh 0vw;
 }
 
 #services section:hover {
