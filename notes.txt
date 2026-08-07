@@ -1,0 +1,8 @@
+TO DO:
+find a way to center the contact form OR left align text in centered contact form. can force centered form with grid but then text is also centered as part of grid cell 
+remove padding and margins on elements for banded appearance (contact and results sections)
+positioning of nav bar on screens greater than 1024px
+
+THINGS I COULD NOT FIGURE OUT: 
+1. the small blue box shadow on the header element. mine was always behind the hero image and applying z index would not change that. I also applied it directly to the image as a gradient but could not get it small enough. 
+2. centering the contact form. it is always slightly right aligned which is not terribly noticeable but I notice it and it bothers me. The only thing that kind of worked was a one column grid, but then the label text was left aligned and it seemed like no other argument would touch it
